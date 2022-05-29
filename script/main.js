@@ -11,31 +11,22 @@ css.addEventListener('change', (ev) => {
         let css = document.querySelector('.test');
         css.style.backgroundColor = 'purple';
     }
-
     if(text === '2') {
-        let css = document.querySelector('.test');
-        css.style.backgroundColor = 'yellow';
-    }
-    if(text === '3') {
-        let css = document.querySelector('.test');
-        css.style.backgroundColor = 'yellow';
-    }
-    if(text === '4') {
-        let css = document.querySelector('.test');
-        css.style.backgroundColor = 'yellow';
-    }
-    if(text === '5') {
         let css = document.querySelector('.test');
         css.style.backgroundColor = 'green';
     }
+    if(text === '3') {
+        let css = document.querySelector('.test');
+        css.style.backgroundColor = 'black';
+    }
     if(text === '4') {
         let css = document.querySelector('.test');
-        css.style.backgroundColor = 'yellow';
+        css.style.backgroundColor = 'violet';
     }
-    else {
+    if(text === '5') {
         let css = document.querySelector('.test');
-        css.style.backgroundColor = 'grey'}
-    // const text  = className2.value;
+        css.style.backgroundColor = 'gold';
+    }
 
     console.log(text)
 });
