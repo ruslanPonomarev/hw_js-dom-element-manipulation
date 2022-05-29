@@ -9,10 +9,26 @@ css.addEventListener('change', (ev) => {
     let text = ev.target.value;
     if(text === '1') {
         let css = document.querySelector('.test');
-        css.style.backgroundColor = 'red';
+        css.style.backgroundColor = 'purple';
     }
 
     if(text === '2') {
+        let css = document.querySelector('.test');
+        css.style.backgroundColor = 'yellow';
+    }
+    if(text === '3') {
+        let css = document.querySelector('.test');
+        css.style.backgroundColor = 'yellow';
+    }
+    if(text === '4') {
+        let css = document.querySelector('.test');
+        css.style.backgroundColor = 'yellow';
+    }
+    if(text === '5') {
+        let css = document.querySelector('.test');
+        css.style.backgroundColor = 'green';
+    }
+    if(text === '4') {
         let css = document.querySelector('.test');
         css.style.backgroundColor = 'yellow';
     }
